@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/ngoson/Code/fels","disabled":false},"/home/vagrant/fels":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/fels","hostpath":"/Users/ngoson/Code/fels","disabled":false}}}
