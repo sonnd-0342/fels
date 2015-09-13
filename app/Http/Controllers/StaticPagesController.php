@@ -14,11 +14,25 @@ class StaticPagesController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index ()
     {
 		return view('StaticPages.index');
     }
 
+	public function about ()
+	{
+		return view('StaticPages.about');
+	}
+
+	public function help ()
+	{
+		return view('StaticPages.help');
+	}
+
+	public function contact ()
+	{
+		return view('StaticPages.contact');
+	}
     /**
      * Show the form for creating a new resource.
      *

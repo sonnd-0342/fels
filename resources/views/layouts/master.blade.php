@@ -1,10 +1,16 @@
 <html>
 	<head>
-		<title>App name - @yield('title')</title>
+		@include('includes.head')
 	</head>
 
 	<body>
-		@section('sidebar')
-		
+		<div class="container">
+			<header class="row">
+				@include('includes.header')
+			</header>
+			<div id="main" class="row">
+				@yield('content')
+			</div>
+		</div>
 	</body>
 </html>
